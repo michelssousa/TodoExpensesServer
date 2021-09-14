@@ -1,0 +1,26 @@
+{
+  "App": {
+    "node": "development",
+    "port": "3000",
+    "server_url": "",
+    "database": {
+      "host": "127.0.0.1",
+      "name": "expenses",
+      "port": "",
+      "user": "root",
+      "password": "root",
+      "client": "mysql2",
+      "poolMin": 2,
+      "poolMax": 10
+    },
+    "Auth": {
+      "key": "00",
+      "expiration_time": "12",
+      "recover_expiration_time": "12"
+    },
+    "logger": {
+      "enabled": true,
+      "level": "info"
+    }
+  }
+}

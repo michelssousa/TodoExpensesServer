@@ -1,0 +1,23 @@
+{
+  "App": {
+    "node": "NODE_ENV",
+    "port": "PORT",
+    "start_project": "START_PROJECT",
+    "server_url": "APP_API_URL",
+    "database": {
+      "host": "BD_HOST",
+      "name": "BD_NAME",
+      "port": "BD_PORT",
+      "user": "BD_USER",
+      "password": "BD_PASSWORD",
+      "client": "BD_CLIENT",
+      "poolMin": "BD_POOL_MIN",
+      "poolMax": "BD_POOL_MAX"
+    },
+    "Auth": {
+      "key": "JWT_SECRET_KEY",
+      "expiration_time": "JWT_EXPIRATION_TIME",
+      "recover_expiration_time": "JWT_RECOVER_EXPIRATION_TIME"
+    }
+  }
+}
